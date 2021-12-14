@@ -1,0 +1,402 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+        <style>
+            
+            
+            .test-s{
+                display: none;
+            }
+            .button-xla{
+                display:flex;
+               
+                
+            }
+            .button-xl{
+                display:flex;
+                background-color: blue;
+                color: aliceblue;
+                
+            }
+            #transcript{
+               
+                display: flex;
+                width: 1px;
+            
+            }
+            .image-robot{
+                padding-top: 20px;
+                height: 200px;
+            }
+        </style>
+<!--
+Tinker CSS Template
+https://templatemo.com/tm-506-tinker
+-->
+        <title>CloudComputing</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        
+        <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700,800" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Roboto:100,300,400,500,700,900" rel="stylesheet">
+        
+        <link rel="apple-touch-icon" href="apple-touch-icon.png">
+
+        <link rel="stylesheet" href="css/bootstrap.min.css">
+        <link rel="stylesheet" href="css/bootstrap-theme.min.css">
+        <link rel="stylesheet" href="css/fontAwesome.css">
+        <link rel="stylesheet" href="css/hero-slider.css">
+        <link rel="stylesheet" href="css/owl-carousel.css">
+        <link rel="stylesheet" href="css/templatemo-style.css">
+        <link rel="stylesheet" href="css/lightbox.css">
+        <link rel="stylesheet" href="input.css">
+        <link rel="stylesheet" href="speech-to-text.css">    
+        <link rel="stylesheet" href="assistant.css">
+        <script src="js/vendor/modernizr-2.8.3-respond-1.4.2.min.js"></script>
+    </head>
+<body>
+    <div class="header">
+        <div class="container">
+            <nav class="navbar navbar-inverse" role="navigation">
+                <div class="navbar-header">
+                    <button type="button" id="nav-toggle" class="navbar-toggle" data-toggle="collapse" data-target="#main-nav">
+                        <span class="sr-only">Toggle navigation</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                    <a href="#" class="navbar-brand scroll-top"><em>Cloud</em>Computing</a>
+                </div>
+                <!--/.navbar-header-->
+                <div id="main-nav" class="collapse navbar-collapse">
+                    <ul class="nav navbar-nav">
+                        <li><a href="#" class="scroll-top">Home</a></li>
+                        <li><a href="#" class="scroll-link" data-id="about">About Us</a></li>
+                        <li><a href="./transcribeToText.html" class="" data-id="Transcribe-To-Text">Transcribe To Text</a></li>
+                        <li><a href="./speechToWrite.html" class="" data-id="Speech-To-Write">Speech To Write</a></li>
+                        <li><a href="#" class="scroll-link" data-id="Assistant">Assistant</a></li>
+                        <li><a href="./speaking.html#text-to-speak" data-id="text-to-speak">Text To Speak</a></li>
+                        <li><a href="./translate.html#translate-input" data-id="translate-input">Translate</a></li>
+
+                    </ul>
+                </div>
+                <!--/.navbar-collapse-->
+            </nav>
+            <!--/.navbar-->
+        </div>
+        <!--/.container-->
+        
+
+<div id="google_translate_element"></div>
+
+<script type="text/javascript">
+function googleTranslateElementInit() {
+  new google.translate.TranslateElement({pageLanguage: 'en'}, 'google_translate_element');
+}
+</script>
+    </div>
+    <!--/.header-->
+    
+
+    <div class="parallax-content baner-content" id="home">
+        <div class="container">
+            <div class="text-content">
+                <h2><em>AWS</em> <span>TRANSCRIBE</span></h2>
+                <p>Amazon Transcribe is an automatic speech recognition service that uses machine learning models to convert audio to text.</p>
+                <div class="primary-white-button">
+                    <a href="#" class="scroll-link" data-id="about">Let's Start</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <section id="about" class="page-section">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-3 col-sm-6 col-xs-12">
+                    <div class="service-item">
+                        <div class="icon">
+                            <img src="img/MINHf.jpg" alt="">
+                        </div>
+                        <h4>Trương Minh Phương</h4>
+                        <div class="line-dec"></div>
+                        <p>19110296</p>
+                        
+                    </div>
+                </div>
+                <div class="col-md-3 col-sm-6 col-xs-12">
+                    <div class="service-item">
+                        <div class="icon">
+                            <img src="img/ddbu.jpg" alt="">
+                        </div>
+                        <h4>Thạch Dương Duy</h4>
+                        <div class="line-dec"></div>
+                        <p>19110179</p>
+                        
+                    </div>
+                </div>
+                <div class="col-md-3 col-sm-6 col-xs-12">
+                    <div class="service-item">
+                        <div class="icon">
+                            <img src="img/duyphong.jpg" alt="">
+                        </div>
+                        <h4>Nguyễn Bùi Duy Phong</h4>
+                        <div class="line-dec"></div>
+                        <p>19110102</p>
+                       
+                    </div>
+                </div>
+             
+            </div>
+        </div>
+    </section>
+
+    <section id="Transcribe-To-Text">
+    </section>
+    <div class="signupSection">
+        <div class="info">
+          <h2>AWS TRANSCRIBE</h2>
+          <i class="icon ion-ios-ionic-outline" aria-hidden="true"></i>
+          <p>Amazon Transcribe is an automatic speech recognition service that uses machine learning models to convert audio to text.</p>
+        </div>
+        <form action="#" method="POST" class="signupForm" name="signupform">
+          <h2>AWS Account</h2>
+          <ul class="noBullet">
+            <li>
+              <label for="access_id"></label>
+              <input type="password" class="inputFields" id="access_id" name="access_id" placeholder="Access ID" value="" required/>
+            </li>
+            <li>
+              <label for="secret_key"></label>
+              <input type="password" class="inputFields" id="secret_key" name="secret_key" placeholder="Secret Key" value=""  required/>
+            </li>
+           
+            <div class="col" style="display: none;">
+                <label>Language: </label>
+                <select id="language">
+                    <optgroup label="English">
+                        <option value="en-US">US English (en-US)</option>
+                        <option value="en-AU">Australian English (en-AU)</option>
+                        <option value="en-GB">British English (en-GB)</option>
+                    </optgroup>
+                    <optgroup label="French">
+                        <option value="fr-CA">Canadian French (fr-CA)</option>
+                        <option value="fr-FR">French (fr-FR)</option>
+                    </optgroup>
+                    <optgroup label="Spanish">
+                        <option value="es-US">US Spanish (es-US)</option>
+                    </optgroup>
+                </select>
+                <label>Region:</label>
+                <select id="region">
+                    <option value="us-east-1">US East (N. Virginia)</option>
+                    <option value="us-east-2">US East (Ohio)</option>
+                    <option value="us-west-2">US West (Oregon)</option>
+                    <option value="ap-southeast-2">Asia Pacific (Sydney)</option>
+                    <option value="ca-central-1">Canada (Central)</option>
+                    <option value="eu-west-1">EU (Ireland)</option>
+                </select>
+            </div>
+            <!-- <li id="center-btn">
+              <input type="submit" id="join-btn" name="join" alt="Join" value="Join">
+            </li> -->
+            <div id="error" class="isa_error"></div>
+          </ul>
+        </form>
+      </div>
+    <div id="Assistant">
+        <div class="container">
+            <div class="" style="float: right;">
+                    <div class="box">                 
+                        <div class="containerLoading">
+                          <span class="circle"></span>
+                          <span class="circle"></span>
+                          <span class="circle"></span>
+                          <span class="circle"></span>
+                        </div>
+                      </div>
+                 </div>
+                 <div >
+                    <image class="image-robot" src="data:image/jpeg;base64,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"></image>
+                    <span class="say-some-thing" style="font-size: 18px;color: white;text-transform: capitalize;font-weight: bold;
+                    "> Click on the heart to give love to robot.</span> 
+            <span id = heart><i class="fa fa-heart-o" aria-hidden="true" ></i> </span>
+                </div>
+                    
+                 <div class="span-say-some-thing" style="position: relative;bottom: -111px;">
+                    <span class="say-some-thing" style="font-size: 40px;color: white;text-transform: capitalize;font-weight: bold;
+                    ">Can I Have You? <br> Please Say Something</span>  
+
+                 </div>
+                
+                <div class="text-s">
+                 <textarea class="transcripttext"  id="transcript" onkeyup="myFunction()"" placeholder="Press Start and speak into your mic" rows="5"     
+            ></textarea>
+
+        </div>
+        <div class="col">
+            <button id="start-button" class="button-xl start-button" title="Start Transcription" style=" font-size: 25px; padding: 8px; border-radius: 10px;">
+                <i class="fa fa-microphone"></i> Start
+            </button>
+            <button id="stop-button" class="button-xl stop-button" title="Stop Transcription" style=" font-size: 25px; padding: 8px; border-radius: 10px;"disabled="true"><i
+                    class="fa fa-stop-circle"></i> Stop
+            </button>
+            <button id="reset-button" class="button-xl button-secondary reset-button" style=" font-size: 25px; padding: 8px; border-radius: 10px;" title="Clear Transcript"> 
+                Reset 
+            </button>
+        </div>
+       
+    </div>
+    <footer>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4 col-sm-12">
+                    <div class="logo">
+                        <a class="logo-ft scroll-top" href="#"><em>Cloud</em>Computing</a>
+                        <p>Copyright &copy; 2020 Your Company 
+                       <br>Design: TemplateMo</p>
+                    </div>
+                </div>
+                <div class="col-md-4 col-sm-12">
+                    <div class="location">
+                        <h4>Location</h4>
+                        <ul>
+                            <li>46 Raffles Ave, <br>Singapore 039803</li>
+                            <li>12 Republic Blvd, <br>Singapore 038975</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-md-2 col-sm-12">
+                    <div class="contact-info">
+                        <h4>More Info</h4>
+                        <ul>
+                            <li><em>Phone</em>: 040-040-0440</li>
+                            <li><em>Email</em>: tk@company.co</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-md-2 col-sm-12">
+                    <div class="connect-us">
+                        <h4>Get Social with us</h4>
+                        <ul>
+                            <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+                            <li><a href="#"><i class="fa fa-facebook"></i></a></li>
+                            <li><a href="#"><i class="fa fa-google"></i></a></li>
+                            <li><a href="#"><i class="fa fa-rss"></i></a></li>
+                            <li><a href="#"><i class="fa fa-dribbble"></i></a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+    <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.11.2.min.js"><\/script>')</script>
+    <script type="text/javascript" src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
+
+    <script src="js/vendor/bootstrap.min.js"></script>
+
+    <script src="js/plugins.js"></script>
+    <script src="js/main.js"></script>
+
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js" type="text/javascript"></script>
+    <script type="text/javascript">
+    $(document).ready(function() {
+        // navigation click actions 
+        $('.scroll-link').on('click', function(event){
+            event.preventDefault();
+            var sectionID = $(this).attr("data-id");
+            scrollToID('#' + sectionID, 750);
+        });
+        // scroll to top action
+        $('.scroll-top').on('click', function(event) {
+            event.preventDefault();
+            $('html, body').animate({scrollTop:0}, 'slow');         
+        });
+        // mobile nav toggle
+        $('#nav-toggle').on('click', function (event) {
+            event.preventDefault();
+            $('#main-nav').toggleClass("open");
+        });
+    });
+    // scroll function
+    function scrollToID(id, speed){
+        var offSet = 50;
+        var targetOffset = $(id).offset().top - offSet;
+        var mainNav = $('#main-nav');
+        $('html,body').animate({scrollTop:targetOffset}, speed);
+        if (mainNav.hasClass("open")) {
+            mainNav.css("height", "1px").removeClass("in").addClass("collapse");
+            mainNav.removeClass("open");
+        }
+    }
+    if (typeof console === "undefined") {
+        console = {
+            log: function() { }
+        };
+    }
+    </script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="../dist/main.js"></script>
+    <script >
+          $(document).ready(function(){
+            $('#access_id').val('AKIARCQXDJA4B43VG5NW');
+        $('#secret_key').val('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');
+       
+  $("#heart").click(function(){
+    if($("#heart").hasClass("liked")){
+        let content = document.getElementById('transcript').value;
+        if(content.search("Open YouTube")!=-1)
+        {
+            window.open("https://www.youtube.com/");
+            $('#transcript').val('');
+            
+
+        } 
+        if(content.search("Open Google")!=-1)
+        {
+            window.open("https://www.google.com/");
+            $('#transcript').val('');
+        } 
+        if(content.search("Open Facebook")!=-1)
+        {
+            window.open("https://www.facebook.com/");
+            $('#transcript').val('');
+        } 
+        
+        if(content.search("Open Google meet")!=-1)
+        {
+            window.open("https://meet.google.com/");
+            $('#transcript').val('');
+        } 
+        if(content.search("Go ahead")!=-1)
+        {
+            window.location.assign("./speaking.html#text-to-speak");
+            $('#transcript').val('');
+        } 
+        if(content.search("Go back")!=-1)
+        {
+            window.location.assign("./speechToWrite.html");
+            $('#transcript').val('');
+        } 
+        if(content.search("Map")!=-1)
+        {
+            window.open("https://www.google.com/maps/");
+            $('#transcript').val('');
+        } 
+
+      $("#heart").html('<i class="fa fa-heart-o" aria-hidden="true"></i>');
+      $("#heart").removeClass("liked");
+    }else{
+      $("#heart").html('<i class="fa fa-heart" aria-hidden="true"></i>');
+      $("#heart").addClass("liked");
+    }
+  });
+});
+    </script>
+</body>
+</html>
