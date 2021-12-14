@@ -1,5 +1,10 @@
-## Amazon Transcribe Websocket Static
 
+## Final Project Cloud Computing: Amazon Transcribe Websocket Static 
+
+## Edit By
+Trương Minh Phương 19110269
+Thạch Dương Duy 19110179
+Bùi Nguyễn Duy Phong 19110102
 [Try it out](https://transcribe-websockets.go-aws.com/)
 
 A static site demonstrating real-time audio transcription via Amazon Transcribe over a WebSocket.
@@ -34,3 +39,4 @@ This project is based on code written by Karan Grover from the Amazon Transcribe
 ## License
 
 This library is licensed under the Apache 2.0 License. 
+
